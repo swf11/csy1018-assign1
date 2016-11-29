@@ -1,11 +1,56 @@
 body {
   margin: 2;
   font-size: 20px;
-  font-family: fantasy;
+  font-family: cursive;
+  background: rgb(128, 222, 234)
+}
+
+p {
+  margin: 1;
+  font-size: 20px;
+  font-family: cursive;
+  background: rgb(128, 222, 234)
+}
+
+ul {
+  font-size: 20px;
+  font-family: cursive;
+  background: rgb(128, 222, 234)
+}
+
+ol {
+  font-size: 20px;
+  font-family: cursive;
+  background: rgb(128, 222, 234)
 }
 
 h1 {
   margin: 1;
   font-size: 40px;
-  font-family: cursive;
+  font-family: inherit;
+  background: #00BCD4;
 }
+
+h2 {
+  margin: 1;
+  font-size: 30px;
+  font-family: inherit;
+  background: #26C6DA;
+}
+
+h3 {
+  margin: 1;
+  font-size: 25px;
+  font-family: inherit;
+}
+
+
+
+.content{
+  padding: 1em;
+  background: rgb(128, 222, 234);
+}
+@media (min-width: 30em) {
+   .content {
+     display: block;
+   }
