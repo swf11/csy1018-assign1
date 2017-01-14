@@ -1,56 +1,105 @@
 body {
-  margin: 2;
-  font-size: 20px;
-  font-family: cursive;
+  font-size: 1em;
   background: rgb(128, 222, 234)
 }
+/* the font size of the text used as a body will be normal and will have a
+cyan background*/
+
 
 p {
-  margin: 1;
-  font-size: 20px;
-  font-family: cursive;
+  font-size: 1em;
   background: rgb(128, 222, 234)
 }
+/* the font size of the text used as a paragraph will be normal big and will have
+ a cyan background*/
 
 ul {
-  font-size: 20px;
-  font-family: cursive;
+  font-size: 1em;
   background: rgb(128, 222, 234)
 }
+/*the font size of the text used in an unordered list will be normal bit and will
+have a cyan background*/
 
 ol {
-  font-size: 20px;
-  font-family: cursive;
+  font-size: 1em;
   background: rgb(128, 222, 234)
 }
+/* the font size of the text used in an ordered list will be normal big and will
+have a cyan background*/
 
 h1 {
   margin: 1;
-  font-size: 40px;
-  font-family: inherit;
+  font-size: 2em;
+  font-family: 'Source Sans Pro', sans-serif;
   background: #00BCD4;
+  width: 160px;
 }
+/* the font size of the text used in an a heading will be twice as big, have the width 220
+ pixels wide(to cut the draker cyan colour), have the cursive font type and will have a darker
+ cyan background*/
+
 
 h2 {
-  margin: 1;
-  font-size: 30px;
-  font-family: inherit;
+  font-size: 2em;
+  font-family: 'Source Sans Pro', sans-serif;
   background: #26C6DA;
 }
+/*the font size of the text used in an a heading will be twice as big, have the cursive
+font type and will have a cyan background*/
 
 h3 {
-  margin: 1;
-  font-size: 25px;
-  font-family: inherit;
+  font-size: 2em;
+  font-family: 'Source Sans Pro', sans-serif;
 }
+/*the font size of the text used in an a heading will be twice as big and have the cursive
+font type*/
 
-
-
-.content{
-  padding: 1em;
-  background: rgb(128, 222, 234);
+.mepicture{
+  width: 70%;
+  height: 55%;
 }
-@media (min-width: 30em) {
-   .content {
-     display: block;
-   }
+/* Properties of the picture placed, which is to shrink so that the width is only 70% of
+the real size and the height is only 25%*/
+
+.centering{
+  display: flex;
+  justify-content: center;
+}
+/* used for centering*/
+
+.homepicture{
+  width: 10%;
+  height: 5%;
+}
+/* Properties of the picture placed, which is to shrink so that the width is only 10% of
+the real size and the height is only 5%*/
+
+h4 {
+  font-size: 2em;
+  font-family: 'Source Sans Pro', sans-serif;
+  background: #00BCD4;
+  width: 350px;
+}
+/* the font size of the text used in an a heading will be twice as big, have the width 480
+ pixels wide(to cut the draker cyan colour), have the cursive font type and will have a darker
+ cyan background*/
+
+ h5 {
+   font-size: 2em;
+   font-family: 'Source Sans Pro', sans-serif;
+   background: #00BCD4;
+   width: 210px;
+ }
+ /* the font size of the text used in an a heading will be twice as big, have the width 280
+  pixels wide(to cut the draker cyan colour), have the cursive font type and will have a darker
+  cyan background*/
+
+  h6 {
+    font-size: 2em;
+    font-family: 'Source Sans Pro', sans-serif;
+    background: #00BCD4;
+    width: 105px;
+  }
+  /* the font size of the text used in an a heading will be twice as big, have the width 280
+   pixels wide(to cut the draker cyan colour), have the cursive font type and will have a darker
+   cyan background*/
